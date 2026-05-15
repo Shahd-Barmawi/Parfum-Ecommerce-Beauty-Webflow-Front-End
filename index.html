@@ -10,57 +10,63 @@
 
 <body class="bg-[#f5f5ef]">
     <header class="w-full px-4 py-4">
-        <div class="mx-auto flex items-center justify-between rounded-full bg-white px-6 py-4 shadow-md"">
+        <div class="mx-auto flex items-center justify-between rounded-full bg-white px-6 py-4 shadow-md">
+            <img src="./src/img/logo.png" alt="logo" class="h-11 w-20 object-contain" />
+            <nav class="hidden min-[769px]:flex items-center text-sm uppercase xl:text-base">
+                <ul class="flex items-center gap-4 xl:gap-7">
+                    <li class="hover:text-[#7f9d48]">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="hover:text-[#7f9d48]">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="hover:text-[#7f9d48]">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="hover:text-[#7f9d48]">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="hover:text-[#7f9d48]">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="hover:text-[#7f9d48]">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
 
-            <img src=" ./src/img/logo.png" alt="logo" class="h-11.25 w-20" />
+            <div class="flex items-center gap-3 xl:gap-4">
 
-        <nav class="hidden sm: sm:flex items-center uppercase ">
-            <ul class="flex items-center gap-7 ">
-                <li class="hover:text-[#7f9d48]">
-                    <a href="#">Home</a>
-                </li>
-                <li class="hover:text-[#7f9d48]">
-                    <a href="#">Shop</a>
-                </li>
-                <li class="hover:text-[#7f9d48]">
-                    <a href="#">About Us</a>
-                </li>
-                <li class="hover:text-[#7f9d48]">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
+                <div class="hidden min-[769px]:flex items-center gap-2">
+                    <img src="./src/img/phone.png" alt="Phone" class="h-7 w-7 object-contain xl:h-9 xl:w-9" />
 
-        <div class="flex items-center gap-4">
+                    <div class="leading-tight">
+                        <p class="text-[8px] text-gray-500 xl:text-[10px]">
+                            Call us Now
+                        </p>
 
-            <div class="hidden lg:flex items-center gap-2"">
-                <img src=" ./src/img/phone.png" alt="Phone" class="h-9 w-9" />
+                        <p class="text-[10px] font-bold text-gray-800 xl:text-xs">
+                            +1(212)255-511
+                        </p>
+                    </div>
+                </div>
 
-            <div class="leading-tight">
-                <p class="text-[10px] text-gray-500">Call us Now</p>
-                <p class="text-xs font-bold text-gray-800">
-                    +1(212)255-511
-                </p>
+                <button
+                    class="hidden min-[769px]:flex h-9 w-9 items-center justify-center rounded-full xl:h-10 xl:w-10">
+                    <img src="./src/img/search.png" alt="Search" class="h-7 w-7 object-contain xl:h-8 xl:w-8" />
+                </button>
+
+                <button
+                    class="hidden min-[769px]:flex items-center gap-2 rounded-full bg-[#e7d24b] px-4 py-2 text-[10px] font-bold text-black xl:px-6 xl:py-3 xl:text-[11px]">
+                    Get In Touch
+
+                    <img src="./src/img/arrow.png" alt="Arrow Icon" class="h-3 w-3 object-contain" />
+                </button>
+
+                <button class="flex min-[769px]:hidden">
+                    <img src="./src/img/menu.png" alt="Menu Icon" class="h-6 w-6 object-contain" />
+                </button>
             </div>
-        </div>
-
-        <button class="flex h-10 w-10 items-center justify-center rounded-full">
-            <img src="./src/img/search.png" alt="Search" class="h-8 w-8" />
-        </button>
-
-        <button
-            class="hidden items-center gap-2 rounded-full bg-[#e7d24b] px-6 py-3 text-[11px] font-bold text-black md:flex">
-            Get In Touch
-
-            <img src="./src/img/arrow.png" alt="Arrow Icon" class="h-3 w-3" />
-        </button>
-
-        <button class="lg:hidden">
-            <img src="./src/img/menu.png" alt="Menu Icon" class="h-6 w-6" />
-        </button>
-
-        </div>
-
         </div>
     </header>
     <section class="px-4 py-6">
@@ -744,6 +750,7 @@
             </div>
         </div>
     </section>
+
 </body>
 
 </html>
