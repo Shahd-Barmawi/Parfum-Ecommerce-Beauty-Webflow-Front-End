@@ -229,6 +229,9 @@
   .-right-1 {
     right: calc(var(--spacing) * -1);
   }
+  .-right-3 {
+    right: calc(var(--spacing) * -3);
+  }
   .-right-5 {
     right: calc(var(--spacing) * -5);
   }
@@ -400,8 +403,14 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
   .h-36 {
     height: calc(var(--spacing) * 36);
+  }
+  .h-44 {
+    height: calc(var(--spacing) * 44);
   }
   .h-60 {
     height: calc(var(--spacing) * 60);
@@ -496,6 +505,12 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
+  }
+  .w-44 {
+    width: calc(var(--spacing) * 44);
+  }
   .w-auto {
     width: auto;
   }
@@ -560,6 +575,9 @@
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .cursor-alias {
+    cursor: alias;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -740,6 +758,10 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-\[5px\] {
+    border-style: var(--tw-border-style);
+    border-width: 5px;
+  }
   .border-t {
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
@@ -747,6 +769,9 @@
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
+  }
+  .border-\[\#6d9952\] {
+    border-color: #6d9952;
   }
   .border-\[\#cfcbbd\] {
     border-color: #cfcbbd;
@@ -862,6 +887,9 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
+  .py-7 {
+    padding-block: calc(var(--spacing) * 7);
+  }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
@@ -951,6 +979,9 @@
   .text-\[15px\] {
     font-size: 15px;
   }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
   .text-\[22px\] {
     font-size: 22px;
   }
@@ -1012,6 +1043,12 @@
   }
   .text-\[\#5d9448\] {
     color: #5d9448;
+  }
+  .text-\[\#6d9952\] {
+    color: #6d9952;
+  }
+  .text-\[\#8b8b8b\] {
+    color: #8b8b8b;
   }
   .text-\[\#77a95c\] {
     color: #77a95c;
@@ -1154,6 +1191,11 @@
       height: calc(var(--spacing) * 50);
     }
   }
+  .sm\:h-56 {
+    @media (width >= 40rem) {
+      height: calc(var(--spacing) * 56);
+    }
+  }
   .sm\:h-130 {
     @media (width >= 40rem) {
       height: calc(var(--spacing) * 130);
@@ -1177,6 +1219,11 @@
   .sm\:w-20 {
     @media (width >= 40rem) {
       width: calc(var(--spacing) * 20);
+    }
+  }
+  .sm\:w-56 {
+    @media (width >= 40rem) {
+      width: calc(var(--spacing) * 56);
     }
   }
   .sm\:grid-cols-2 {
